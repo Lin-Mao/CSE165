@@ -1,6 +1,6 @@
-# CSE165
+# CSE165 [[Demo video]](https://github.com/Lin-Mao/CSE165/releases/download/0.1/recording.mp4)
 
-[**[Demo video]**](https://github.com/Lin-Mao/CSE165/releases/download/0.1/recording.mp4)
+
 
 [Install virtual machine](#install-virtual-machine)
 
