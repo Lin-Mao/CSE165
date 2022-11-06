@@ -1,10 +1,15 @@
 # CSE165
 
 [Install virtual machine](#install-virtual-machine)
+
 [Configure virtual machine](#configure-virtual-machine)
+
 [Install dependencies](#install-dependencies)
+
 [Example 1 - Pong](#example-1---pong)
+
 [Example 2 - Rock_Paper_Scissors](#example-2---rock_paper_scissors)
+
 
 ## Install virtual machine
 
@@ -66,7 +71,6 @@ sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev libsd
 sudo apt install libsoil-dev libglew-dev
 ```
 
-
 ## Example 1 - Pong
 
 
@@ -103,6 +107,7 @@ tips:
 * Use the `W` and `W` key to control the left racket.
 * Use the `I` and `K` key to control the left racket.
 * Enjoy the game!
+
 
 ## Example 2 - Rock_Paper_Scissors
 ### Download and compile the code
