@@ -1,6 +1,12 @@
 # CSE165
 
-## Install ubuntu 20.04 on virtual machine
+[Install virtual machine](#install-virtual-machine)
+[Configure virtual machine](#configure-virtual-machine)
+[Install dependencies](#install-dependencies)
+[Example 1 - Pong](#example-1---pong)
+[Example 2 - Rock_Paper_Scissors](#example-2---rock_paper_scissors)
+
+## Install virtual machine
 
 1. Download VirtualBox [[Dowolad link]](https://www.virtualbox.org/wiki/Downloads)
 
