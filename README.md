@@ -1,5 +1,7 @@
 # CSE165
 
+[**[Demo video]**](https://github.com/Lin-Mao/CSE165/releases/download/0.1/recording.mp4)
+
 [Install virtual machine](#install-virtual-machine)
 
 [Configure virtual machine](#configure-virtual-machine)
@@ -40,6 +42,11 @@ username    ALL=(ALL:ALL) ALL
 Save and close `/etc/sudoers`.
 
 ### Install essential tools
+Update apt source first
+```
+sudo apt update
+```
+
 ```
 sudo apt install build-essential cmake git 
 ```
@@ -77,7 +84,6 @@ sudo apt install libsoil-dev libglew-dev
 ### Download and compile the code
 ```
 # Download code
-cd ~ # return home directory
 wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Pong.zip
 
 # Unzip package
@@ -114,6 +120,7 @@ tips:
 
 ```
 # download code
+cd ~ # return home directory
 wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Rock_Paper_Scissors.zip
 
 # unzip package
