@@ -42,8 +42,8 @@ username    ALL=(ALL:ALL) ALL
 Save and close `/etc/sudoers`.
 
 ### Install essential tools
-Update apt source first
 ```
+# Update apt source first
 sudo apt update
 ```
 
