@@ -4,7 +4,7 @@
 
 1. Download VirtualBox [[Dowolad link]](https://www.virtualbox.org/wiki/Downloads)
 
-2. Download Ubuntu20.04 image [[Download link]]()
+2. Download Ubuntu20.04 image [[Download link]](https://releases.ubuntu.com/20.04.5/)
 
 3. Install ubuntu 20.04 on virtual machine
 
