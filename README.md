@@ -98,7 +98,7 @@ tips:
 * Use the `I` and `K` key to control the left racket.
 * Enjoy the game!
 
-## Example 2
+## Example 2 - Rock_Paper_Scissors
 ### Download and compile the code
 
 ```
