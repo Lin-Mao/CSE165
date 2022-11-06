@@ -1,12 +1,15 @@
 # CSE165
 
-## Install virtual box
-
 ## Install ubuntu 20.04 on virtual machine
 
-## Example - Pong
+1. Download VirtualBox [[Dowolad link]](https://www.virtualbox.org/wiki/Downloads)
 
-### Install dependencies
+2. Download Ubuntu20.04 image [[Download link]]()
+
+3. Install ubuntu 20.04 on virtual machine
+
+
+## Install dependencies
 
 * mesa-utils
 ```
@@ -29,7 +32,11 @@ sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev
 ```
 
-### Download and install code
+
+## Example 1 - Pong
+
+
+### Download and compile the code
 ```
 # Download code
 wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Pong.zip
@@ -46,7 +53,7 @@ make
 
 # Install Pong
 cd ../../   # return the Pong directory
-make    # generate glutapp executable file
+make    # generate glutapp executable
 ```
 
 ### How to play the game
@@ -62,3 +69,29 @@ tips:
 * Use the `I` and `K` key to control the left racket.
 * Enjoy the game!
 
+## Example 2
+### Download and compile the code
+
+```
+# install dependencies
+sudo apt install libsoil-dev
+sudo apt install libglew-dev
+
+# download code
+wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Rock_Paper_Scissors.zip
+
+# unzip package
+unzip Rock_Paper_Scissors.zip
+
+# compile code
+cd Rock_Paper_Scissors/gameLinux
+make # generate main executable
+```
+
+### How to play the game
+```
+# run the game
+./main
+```
+
+Enjoy the game with the prompts.
