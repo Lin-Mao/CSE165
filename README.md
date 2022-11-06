@@ -25,7 +25,7 @@
 ## Configure virtual machine
 
 ### Assign administrative privilege to user
-(New user doesn't process administrative privilege.)
+(New user doesn't possess administrative privilege by default.)
 ```
 # Enter administrative mode
 su # enter the password set during installing ubuntu 20.04 on virtual machine
