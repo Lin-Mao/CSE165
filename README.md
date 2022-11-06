@@ -9,6 +9,30 @@
 3. Install ubuntu 20.04 on virtual machine
 
 
+## Configure virtual machine
+
+### Assign administrative privilege to user
+(New user doesn't process administrative privilege.)
+```
+# Enter administrative mode
+su # enter the password set during installing ubuntu 20.04 on virtual machine
+
+gedit /etc/sudoers
+```
+
+Edit `/etc/sudoers` by add the following content:
+```
+# username is set during installing ubuntu 20.04 on virtual machine
+# username is cse165 in the demo video
+username    ALL=(ALL:ALL) ALL
+```
+Save and close `/etc/sudoers`.
+
+### Install essential tools
+```
+sudo apt install build-essential cmake git 
+```
+
 ## Install dependencies
 
 * mesa-utils
@@ -28,8 +52,12 @@ sudo apt-get install libglfw3-dev
 
 * SDL
 ```
-sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev
-sudo apt-get install libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev
+sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev
+```
+
+* SOIL
+```
+sudo apt install libsoil-dev libglew-dev
 ```
 
 
@@ -39,10 +67,11 @@ sudo apt-get install libsdl2-dev libsdl2-mixer-dev libsdl2-image-dev
 ### Download and compile the code
 ```
 # Download code
+cd ~ # return home directory
 wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Pong.zip
 
 # Unzip package
-unzip Pong.zip -d Pong
+unzip Pong.zip -d Pong && cd Pong
 
 # Install soil
 git clone https://github.com/paralin/soil.git && cd soil
@@ -73,10 +102,6 @@ tips:
 ### Download and compile the code
 
 ```
-# install dependencies
-sudo apt install libsoil-dev
-sudo apt install libglew-dev
-
 # download code
 wget https://github.com/Lin-Mao/CSE165/releases/download/0.1/Rock_Paper_Scissors.zip
 
